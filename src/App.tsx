@@ -8,7 +8,7 @@ import SearchWidget from "../src/components/search-widget";
 
 function App() {
   return (
-    <div className='background relative'>
+    <div className='background relative h-[100vh]'>
       <div className='background_covered absolute bottom-0'></div>
       <div style={{"paddingTop":"30vh"}}></div>
       <div className='logo'></div>
@@ -34,10 +34,10 @@ function App() {
         "marginRight": "auto",
         "marginTop":"30px"
       }}>
-        <SearchWidget configId="#add your vector search id"/>
-        <div className='absolute left-0 top-[65vh]'>
+        <SearchWidget configId="5e5b9bb7-c43a-403f-9aa3-b823f51f739f"/>
+        {/* <div className='absolute left-0 top-[65vh]'>
           <AnimatedListDemo/>
-        </div>
+        </div> */}
       </div>
     </div>
   );
